@@ -17,16 +17,16 @@ function Navigation() {
 
         <div class="w-full h-11 rounded-lg self-center col-start-2 col-end-4">
           <div class="grid h-full overflow-hidden grid-cols-4 grid-rows-1 gap-x-1 gap-y-1 justify-items-center justify-content-center">
-            <NavLink to="Enneagram/type" className={({ isActive }) =>{console.log(isActive); return `${navButton.shared} ${navButton[isActive]}`}}>
+            <NavLink to="Enneagram/type" className={({ isActive }) =>{return `${navButton.shared} ${navButton[isActive]}`}}>
               <p class="text-white font-bold self-center ">Type của bạn</p>
             </NavLink>
-            <NavLink to="Enneagram/documents" className={({ isActive }) =>{console.log(isActive); return `${navButton.shared} ${navButton[isActive]}`}}>
+            <NavLink to="Enneagram/documents" className={({ isActive }) =>{return `${navButton.shared} ${navButton[isActive]}`}}>
               <p class="text-white font-bold self-center ">Eneagram là gì?</p>
             </NavLink>
-            <NavLink to="Enneagram/information" className={({ isActive }) =>{console.log(isActive); return `${navButton.shared} ${navButton[isActive]}`}}>
+            <NavLink to="Enneagram/information" className={({ isActive }) =>{return `${navButton.shared} ${navButton[isActive]}`}}>
               <p class="text-white font-bold self-center "> Thông tin thêm</p>
             </NavLink>
-            <NavLink to="Enneagram/forum" className={({ isActive }) =>{console.log(isActive); return `${navButton.shared} ${navButton[isActive]}`}}>
+            <NavLink to="Enneagram/forum" className={({ isActive }) =>{return `${navButton.shared} ${navButton[isActive]}`}}>
               <p class="text-white font-bold self-center ">Diễn đàn</p>
             </NavLink>
             
