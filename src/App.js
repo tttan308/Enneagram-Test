@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Navigation />
+      <div class="h-[1000px]"></div>
+    </div>
   )
 }
 
