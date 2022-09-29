@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-
-function Navigation() {
-  return (
-    <div class="grid justify-items-center overflow-hidden grid-cols-3 grid-rows-1 gap-2 h-14 bg-purple-300">
-      <span class="self-center">aaa</span>
-      <span class="self-center">...</span>
-      <span class="self-center">...</span>
-    </div>
-  );
-}
-
-export default Navigation;
-=======
 import React from 'react'
 
 function Navigation() {
@@ -38,4 +23,3 @@ function Navigation() {
 }
 
 export default Navigation
->>>>>>> c9bf44d558e002ac333cf7206e94c47b29475c31
