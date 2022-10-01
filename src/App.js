@@ -8,7 +8,7 @@ import Type from './pages/Type'
 import Information from './pages/Information'
 import Documents from './pages/Documents'
 import Forum from './pages/Forum'
-import Questions from './pages/Questions';
+import Questions from './components/Test';
 
 function App() {
   return (
